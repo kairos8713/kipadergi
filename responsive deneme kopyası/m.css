@@ -149,9 +149,12 @@ body {
 
 .fd-header{
 	font-size: 2.5em;
-	text-align:center;
+	margin-left: 5%;
+	text-align: center;
 	padding: 1%;
 	color:#ffffff;
+	width: 90%;
+
 }
 
 .fd-item{
@@ -193,14 +196,16 @@ body {
 	box-shadow: 0.2vmax 0.2vmax 0.5vmax #ffffff;
 	float: left;
 	margin-right: 5%;
-	
+	transition: all 2s;
+}
+
+.fid:hover{
+	box-shadow: 0.3vmax 0.3vmax 0.5vmax #000000;
 }
 
 .fid:last-child{
 	margin-right: 0%;
 }
-
-
 
 .fidh{
 	position:  relative;
@@ -305,6 +310,7 @@ body {
 	border-top-left-radius: 20%;
 	border-top-right-radius: 20%;
 	transition: all 2s ease;
+	margin-bottom: 1%;
 }
 
 .bdc:hover{
@@ -430,13 +436,453 @@ body {
 	}
 }
 
+@media only screen and (max-width: 768px) and (min-width: 240px)  {
+	.slider2-p{
+		background-color: #000000;
+	}
 
 
+}
 
+@media only screen and (max-width: 910px) and (min-width: 768px){
+	.fd-header:first-child{
+		border-bottom: 2px solid #ffffff;
+		margin-bottom: 10%;
+	}
+	#fdiv{
+		height: 500px;
+	}
+	.na{
+		font-size: 1.2em;
+	}
+	.fidi{
+		font-size: 0.75em;
+	}
+	#nl li{
+		margin-left: 1.5%;
+		margin-top: 3%;
+	}
+	#home{
+		font-size: 3em;
+		margin-top: 4%;
+	}
+	.slider{
+		visibility: hidden;
+	}
 
+	#bigdiv{
+		height: 450px;
+		top: 1200px;
+	}
 
+	#slots{
+		top: 2200px;
+		height: 50%;
+	}
+	
+	#slots2{
+		top: 2500px;
+		height: 50%;
+	}
+	
+	#slots3{
+		top: 2800px;
+		height: 50%;
+	}
 
+	#rek1{
+		top: 800px;	
+	}
 
+	#rek2{
+		top: 1800px;
+	}
+
+	#rek3{
+		top: 3150px;
+	}
+	#yorumlar{
+		top: 3500px;
+	}
+
+	#last-div{
+		top:4000px;
+	}
+
+	.ld-p{
+		font-size: 0.8em;
+		margin-top: 10%;
+	}
+
+	.fd-item{
+		margin-bottom:10% ;
+		margin-left: 10%;
+		font-size: 1.3em;
+	}
+	.fd-header{
+		font-size: 1.6em;
+	}
+	.fd-header:first-child{
+		margin-left: 5%;
+	}
+	.bdc{
+		margin-bottom: 3%;
+		font-size: 1em;
+		border-top-width: 1px;
+		border-bottom-width: 2px;
+	}
+	.slider2-header{
+		font-size: 1.2em;
+		margin-bottom: 5%;
+	}
+	.slider2-p{
+		font-size: 1em;
+	}
+	.fid{
+		height: 200px;
+	}
+	.fidh{
+		top: 0%;
+		border-top: 0px solid transparent;
+		border-bottom:2px solid #ffffff;
+	}
+	.fidi{
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 910px) {
+	.fd-header:first-child{
+		border-bottom: 2px solid #ffffff;
+		margin-bottom: 10%;
+	}
+	#home{
+		font-size: 3em;
+	}
+	#fdiv{
+		height: 500px;
+	}
+	.fd-item{
+		margin-bottom:10% ;
+		margin-left: 10%;
+		font-size: 1.3em;
+	}
+	.fd-header{
+		font-size: 1.6em;
+	}
+	.fd-header:first-child{
+		margin-left: 5%;
+	}
+	#nl li{
+		margin-left: 4%;
+		margin-top: 2.5%;
+	}
+
+	.slider{
+		visibility: hidden;
+	}
+
+	#bigdiv{
+		height: 450px;
+		top: 1200px;
+	}
+
+	#slots{
+		top: 2200px;
+		height: 50%;
+	}
+	
+	#slots2{
+		top: 2500px;
+		height: 50%;
+	}
+	
+	#slots3{
+		top: 2800px;
+		height: 50%;
+	}
+
+	#rek1{
+		top: 800px;
+	}
+
+	#rek2{
+		top: 1800px;
+	}
+
+	#rek3{
+		top: 3200px;
+	}
+
+	.fidi{
+		font-size: 0.8em;
+	}
+
+	#yorumlar{
+		top: 3600px;
+	}
+
+	#last-div{
+		top:4200px;
+	}
+
+	.ld-p{
+		font-size: 0.9em;
+	}
+
+	.fd-item{
+		margin-bottom:10% ;
+		margin-left: 10%;
+	}
+
+	.fd-header:first-child{
+		margin-left: 5%;
+	}
+	.slider2-p{
+		font-size: 1.2em;
+	}
+	.slider2-header{
+		font-size: 1.4em;
+		margin-bottom: 4%;
+	}
+	.bdc{
+		margin-bottom: 2%;
+		font-size: 1em;
+		border-top-width: 1px;
+		border-bottom-width: 2px;
+	}
+	.na{
+		font-size: 1.2em;
+	}
+	.fid{
+		height: 200px;
+	}
+	.fidh{
+		top: 0%;
+		border-top: 0px solid transparent;
+		border-bottom:2px solid #ffffff;
+	}
+	.fidi{
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 1224px) and (min-width: 1024px) {
+	.fd-header:first-child{
+		border-bottom: 2px solid #ffffff;
+		margin-bottom: 10%;
+	}
+	#home{
+		font-size: 3em;
+	}
+	#fdiv{
+		height: 500px;
+	}
+	.fd-item{
+		margin-bottom:10% ;
+		margin-left: 10%;
+		font-size: 1.3em;
+	}
+	.fd-header{
+		font-size: 1.6em;
+	}
+	.fd-header:first-child{
+		margin-left: 5%;
+	}
+	#nl li{
+		margin-left: 4%;
+		margin-top: 2.5%;
+	}
+
+	.slider{
+		visibility: hidden;
+	}
+
+	#bigdiv{
+		height: 450px;
+		top: 1200px;
+	}
+
+	#slots{
+		top: 2200px;
+		height: 50%;
+	}
+	
+	#slots2{
+		top: 2500px;
+		height: 50%;
+	}
+	
+	#slots3{
+		top: 2800px;
+		height: 50%;
+	}
+
+	#rek1{
+		top: 800px;
+	}
+
+	#rek2{
+		top: 1800px;
+	}
+
+	#rek3{
+		top: 3200px;
+	}
+
+	.fidi{
+		font-size: 0.8em;
+	}
+
+	#yorumlar{
+		top: 3600px;
+	}
+
+	#last-div{
+		top:4200px;
+	}
+
+	.ld-p{
+		font-size: 0.9em;
+	}
+
+	.fd-item{
+		margin-bottom:10% ;
+		margin-left: 10%;
+	}
+
+	.fd-header:first-child{
+		margin-left: 5%;
+	}
+	.slider2-p{
+		font-size: 1.2em;
+	}
+	.slider2-header{
+		font-size: 1.4em;
+		margin-bottom: 4%;
+	}
+	.bdc{
+		margin-bottom: 1%;
+		font-size: 1em;
+		border-top-width: 1px;
+		border-bottom-width: 2px;
+	}
+	.na{
+		font-size: 1.2em;
+	}
+	.fid{
+		height: 200px;
+	}
+	.fidh{
+		top: 0%;
+		border-top: 0px solid transparent;
+		border-bottom:2px solid #ffffff;
+	}
+	.fidi{
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 1624px) and (min-width: 1224px) {
+	#home{
+		font-size: 3em;
+	}
+	#fdiv{
+		height: 500px;
+	}
+	.fd-item{
+		margin-bottom:10% ;
+		margin-left: 10%;
+		font-size: 1.3em;
+	}
+	.fd-header{
+		font-size: 1.6em;
+	}
+	.fd-header:first-child{
+		margin-left: 5%;
+	}
+	#nl li{
+		margin-left: 5%;
+		margin-top: 2.5%;
+	}
+
+	#bigdiv{
+		height: 600px;
+		top: 1200px;
+	}
+
+	#slots{
+		top: 2200px;
+		height: 50%;
+	}
+	
+	#slots2{
+		top: 2700px;
+		height: 50%;
+	}
+	
+	#slots3{
+		top: 3200px;
+		height: 50%;
+	}
+
+	#rek1{
+		top: 800px;
+	}
+
+	#rek2{
+		top: 1900px;
+	}
+
+	#rek3{
+		top: 3800px;
+	}
+
+	.fidi{
+		font-size: 0.8em;
+	}
+
+	#yorumlar{
+		top: 4200px;
+	}
+
+	#last-div{
+		top:4800px;
+	}
+
+	.ld-p{
+		font-size: 1.05em;
+	}
+
+	.fd-item{
+		margin-bottom:5% ;
+		margin-left: 5%;
+		width: 70%;
+	}
+
+	.fd-header:first-child{
+		margin-left: 5%;
+	}
+	.slider2-p{
+		font-size: 1.2em;
+	}
+	.slider2-header{
+		font-size: 1.4em;
+		margin-bottom: 4%;
+	}
+	.bdc{
+		margin-bottom: 1%;
+		font-size: 1em;
+		border-top-width: 1px;
+		border-bottom-width: 2px;
+		}
+	.bdc:first-child{
+		margin-top: 1%;
+	}
+	.na{
+		font-size: 1.4em;
+	}
+}
 
 
 
